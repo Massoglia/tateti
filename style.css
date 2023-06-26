@@ -1,19 +1,21 @@
 :root{
-    --color-primario: rgb(28, 0, 34);
+    --color-primario: rgb(10, 30, 91);
     --line-style: 10px solid var(--color-primario);
     --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body{
-    background-color: rgb(214, 214, 214);
+    background: #FEAC5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     user-select: none;
 }
 
 h1{
     text-align: center;
     font-family: var(--font-family);
-    font-size: 4rem;
-    color: var(--color-primario);
+    font-size: 2rem;
+    color: whitesmoke;
 }
 
 #contenedorGrilla{
