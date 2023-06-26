@@ -1,5 +1,5 @@
 :root{
-    --color-primario: rgb(10, 30, 91);
+    --color-primario: rgb(190, 209, 190);
     --line-style: 10px solid var(--color-primario);
     --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -25,7 +25,7 @@ h1{
 }
 
 .cuadrado{
-    color: var(--color-primario);
+    color: rgb(21, 104, 172);
     height: 200px;
     width: 200px;
     display: flex;
@@ -50,7 +50,7 @@ h1{
 }
 
 .ganador{
-    background-color: rgb(79, 122, 79);
+    background-color: rgb(95, 208, 95);
 }
 
 dialog{
